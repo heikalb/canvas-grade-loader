@@ -1,0 +1,20 @@
+# CSV file from which scores are taken
+source_file_path: canvas.csv
+
+# CSV of Canvas gradebook to put scores into
+target_file_path: 2019-06-27T1809_Grades-LING111_D100.csv
+
+# CSV of Canvas gradebook with changes
+save_file_path: 2019-06-27T1809_Grades-LING111_D100_changed.csv
+
+# Column number of student ID in source file
+source_id_index: 2
+
+# Column number of student ID in target file
+target_id_index: 2
+
+# Column number of scores to be loaded in source file
+source_index: 5
+
+# Column number of exam/assignment where scores are loaded to in target file
+target_index: 6
